@@ -1,0 +1,8 @@
+epochs: 30
+batch_size: 256
+lr: 1.0e-3
+weight_decay: 1.0e-4
+grad_clip: 0.0
+log_every: 50
+loss_type: geodesic
+use_canonical: true

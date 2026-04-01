@@ -1,0 +1,3 @@
+{"epoch": 1, "time_sec": 0.8904283046722412, "train_loss": 0.5176883820868745, "train_grad_norm": 1.573958258133796, "val_loss": 0.15769685059785843, "val_grad_norm": 1.8796754010141186}
+{"epoch": 2, "time_sec": 0.839794397354126, "train_loss": 0.1318813470911376, "train_grad_norm": 1.8513633048665876, "val_loss": 0.1322836820036173, "val_grad_norm": 2.5603579374171708}
+{"epoch": 3, "time_sec": 0.7730710506439209, "train_loss": NaN, "train_grad_norm": 1.428289136216645, "val_loss": NaN, "val_grad_norm": 0.0}

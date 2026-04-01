@@ -1,0 +1,4 @@
+rep: atlas
+num_charts: 3
+train:
+  loss_type: atlas

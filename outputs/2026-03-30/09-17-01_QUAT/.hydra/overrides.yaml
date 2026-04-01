@@ -1,0 +1,5 @@
+- reps=quat
+- train.epochs=3
+- splits.n_train=20000
+- splits.n_val=2000
+- device=cpu

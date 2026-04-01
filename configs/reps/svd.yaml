@@ -1,0 +1,3 @@
+rep: SVD
+train:
+  loss_type: geodesic

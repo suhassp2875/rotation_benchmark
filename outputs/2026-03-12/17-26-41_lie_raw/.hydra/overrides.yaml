@@ -1,0 +1,4 @@
+- reps=lie_raw
+- train.loss_type=antipodal
+- seed=1
+- train.epochs=3

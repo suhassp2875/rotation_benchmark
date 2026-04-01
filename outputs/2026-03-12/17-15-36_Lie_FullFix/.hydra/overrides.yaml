@@ -1,0 +1,3 @@
+- reps=lie_fullfix
+- seed=2
+- train.epochs=3

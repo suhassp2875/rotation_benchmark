@@ -1,0 +1,17 @@
+{
+  "lie_raw": {
+    "median": 3.83,
+    "p99": 100.23,
+    "fail": 2.66
+  },
+  "lie_hardened": {
+    "median": 3.15,
+    "p99": 57.44,
+    "fail": 2.2
+  },
+  "Lie_FullFix": {
+    "median": 3.7,
+    "p99": 59.47,
+    "fail": 3.9
+  }
+}

@@ -1,0 +1,5 @@
+- reps=6d
+- train.epochs=1
+- splits.n_train=100
+- splits.n_val=100
+- train.log_every=1000

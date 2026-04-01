@@ -1,0 +1,4 @@
+- reps=lie_hardened
+- train.loss_type=geodesic
+- seed=1
+- train.epochs=3

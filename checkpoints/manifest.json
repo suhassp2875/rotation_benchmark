@@ -1,0 +1,21 @@
+{
+  "last_updated": "2026-03-12",
+  "checkpoints": [
+    {
+      "name": "sixd_checkpoint.pt",
+      "rep": "6D",
+      "metric_median_deg": 1.82,
+      "metric_p99_deg": 3.77,
+      "metric_fail_rate_pct": 0.0,
+      "description": "Standard high-accuracy 6D model trained for 3 epochs."
+    },
+    {
+      "name": "lie_fullfix_checkpoint.pt",
+      "rep": "Lie_FullFix",
+      "metric_median_deg": 2.13,
+      "metric_p99_deg": 33.61,
+      "metric_fail_rate_pct": 1.37,
+      "description": "Robust axis-angle model with gated antipodal loss. Eliminates boundary flips."
+    }
+  ]
+}

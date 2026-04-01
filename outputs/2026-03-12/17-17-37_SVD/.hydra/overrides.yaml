@@ -1,0 +1,3 @@
+- reps=svd
+- seed=5
+- train.epochs=3

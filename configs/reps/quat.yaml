@@ -1,0 +1,3 @@
+rep: QUAT
+train:
+  loss_type: geodesic

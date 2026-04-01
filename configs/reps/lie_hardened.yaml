@@ -1,0 +1,5 @@
+rep: lie_hardened
+train:
+  loss_type: geodesic
+head:
+  lie_use_tanh: true

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rotation_benchmark"
+version = "1.0.0"
+description = "A professional benchmark for neural network rotation representations."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Suhas S P", email = "suhassp2875@gmail.com"}
+]
+dependencies = [
+    "torch>=2.0.0",
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "hydra-core>=1.3.2",
+    "omegaconf",
+    "tqdm",
+    "pandas",
+]
+
+[project.scripts]
+rotation-train = "rotation_benchmark.train:main"
+rotation-eval = "rotation_benchmark.eval.__main__:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort",
+    "flake8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["rotation_benchmark*"]
+
+[tool.hydra]
+run = {dir = "outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}_${rep}"}

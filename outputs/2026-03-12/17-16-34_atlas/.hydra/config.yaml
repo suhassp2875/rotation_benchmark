@@ -1,0 +1,33 @@
+train:
+  epochs: 3
+  batch_size: 256
+  lr: 0.001
+  weight_decay: 0.0001
+  grad_clip: 0.0
+  log_every: 50
+  loss_type: geodesic
+  use_canonical: true
+reps:
+  rep: atlas
+  num_charts: 3
+  train:
+    loss_type: atlas
+seed: 5
+device: auto
+data:
+  num_points: 32
+  obs_noise_std: 0.01
+  rot_noise_std: 0.0
+model:
+  hidden_dim: 256
+  depth: 3
+  dropout: 0.0
+head:
+  euler_angle_range: 3.14159
+  euler_use_tanh: true
+  lie_max_angle: 3.14159
+  lie_use_tanh: true
+splits:
+  n_train: 20000
+  n_val: 2000
+  n_test: 2000
