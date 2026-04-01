@@ -87,7 +87,7 @@ If you use this benchmark or the provided checkpoints in your research, please c
 @inproceedings{sp2026rotationbench,
   title={Operational Reliability of 3D Rotation Representations in Robotics},
   author={Suhas S P and others},
-  booktitle={Conference on Robot Learning (CoRL)},
+  booktitle={},
   year={2026}
 }
 ```
