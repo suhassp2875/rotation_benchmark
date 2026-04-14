@@ -42,11 +42,11 @@ The following table summarizes the operational reliability of standard represent
 
 | Representation | Benchmark $p_{99}$ (Uniform) | PickPlace (21.1° Cliff) | Stack (30.4° Cliff) |
 | :--- | :--- | :--- | :--- |
-| **6D / SVD** | ~4° | **SAFE** ✅ | **SAFE** ✅ |
-| **Atlas** | 30.6° | **RISK** ⚠️ | **RISK (Marginal)** ⚠️ |
-| **Lie (fixed)** | 31.9° | **RISK** ⚠️ | **RISK** ⚠️ |
-| **Quaternion** | 46.1° | **RISK** ⚠️ | **RISK** ⚠️ |
-| **Euler** | 118.8° | **CRITICAL** ❌ | **CRITICAL** ❌ |
+| **6D / SVD** | ~4° | **SAFE**  | **SAFE**  |
+| **Atlas** | 30.6° | **RISK**  | **RISK (Marginal)** |
+| **Lie (fixed)** | 31.9° | **RISK**  | **RISK** |
+| **Quaternion** | 46.1° | **RISK**  | **RISK** |
+| **Euler** | 118.8° | **CRITICAL**  | **CRITICAL** |
 
 ---
 
