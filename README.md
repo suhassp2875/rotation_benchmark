@@ -1,6 +1,6 @@
 # RotationBench: Reliability Benchmark for 3D Rotation Representations
 
-[![CoRL 2026](https://img.shields.io/badge/CoRL-2026-blue.svg)](https://corl2026.org/)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **RotationBench** is a diagnostic framework designed to expose the operational vulnerabilities of neural rotation representations. While standard benchmarks often prioritize median accuracy, they frequently mask catastrophic failures in edge-case orientations. Our framework moves beyond aggregate metrics to characterize **benchmark tail-risk ($p_{99}$)**, providing a rigorous instrument to forecast robotic failures before deployment.
@@ -88,6 +88,6 @@ If you use this benchmark or the provided checkpoints in your research, please c
   title={Operational Reliability of 3D Rotation Representations in Robotics},
   author={Suhas S P and others},
   booktitle={},
-  year={2026}
+  year={}
 }
 ```
